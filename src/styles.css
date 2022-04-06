@@ -1,0 +1,49 @@
+#button-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.states {
+  position: fixed;
+  overflow: visible;
+  transform-origin: center center;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  z-index: 400;
+  will-change: transform;
+}
+
+.c-lggrhN {
+  position: fixed;
+  inset: 0px;
+  transform-origin: center center;
+  pointer-events: none;
+}
+
+.canvas-layer,
+.canvas-group,
+.canvas-tile {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.canvas-group {
+  transform-origin: 0 0;
+}
+
+.canvas-tile {
+  max-width: none !important;
+  max-height: none !important;
+  will-change: opacity;
+}
